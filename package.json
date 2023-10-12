@@ -1,0 +1,28 @@
+{
+  "name": "@intro-it/introibo",
+  "version": "0.0.1",
+  "license": "ISC",
+  "author": "vladinko0",
+  "repository": "https://github.com/intro-it/introibo.git",
+  "homepage": "https://github.com/intro-it/introibo",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
